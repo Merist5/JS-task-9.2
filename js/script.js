@@ -5,7 +5,7 @@ var allNames = femaleNames.concat(maleNames);
 var newName = 'Marian';
 
 if (allNames.indexOf(newName) === -1) {
-  allNames[8] = newName;
+  allNames.push(newName);
 }
 else if ((allNames.indexOf(newName) > -1) || (allNames.indexOf(newName) < -1)) {
   console.log("Can't add name");
