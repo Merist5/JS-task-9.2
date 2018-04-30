@@ -6,11 +6,7 @@ var newName = 'Marian';
 
 if (allNames.indexOf(newName) === -1) {
   allNames.push(newName);
-}
-else if ((allNames.indexOf(newName) > -1) || (allNames.indexOf(newName) < -1)) {
-
-  allNames[8] = newName;
-} else if ((allNames.indexOf(newName) > -1) || (allNames.indexOf(newName) < -1)) {
+} else {
   console.log("Can't add name");
 }
 
